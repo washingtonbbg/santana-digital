@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sant'Ana Digital — Memorial Cultural da Festa de Sant'Ana da Família Barros em Várzea Grande-MT.">
+  <meta name="theme-color" content="#5c4033">
+  <meta name="author" content="Projeto de Extensão — CST em Análise e Desenvolvimento de Sistemas">
+  <title>Sant'Ana Digital — Memorial Cultural</title>
+
+  <!-- Estilos locais (caminhos relativos funcionam no GitHub Pages) -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Tipografia via Google Fonts (CDN leve, compatível com GitHub Pages) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Link de acessibilidade: permite pular o menu e ir direto ao conteúdo -->
+  <a href="#conteudo-principal" class="skip-link">Ir para o conteúdo</a>
+
+  <!-- ============================================================
+       CABEÇALHO FIXO — Menu de navegação responsivo
+       ============================================================ -->
+  <header class="site-header" id="topo">
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="#inicio" class="nav__logo">Sant'Ana Digital</a>
+
+      <!-- Botão hambúrguer (visível apenas em telas menores) -->
+      <button class="nav__toggle" id="navToggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="navMenu">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#inicio" class="nav__link" data-nav="inicio">Início</a></li>
+        <li><a href="#tradicao" class="nav__link" data-nav="tradicao">Tradição</a></li>
+        <li><a href="#historia" class="nav__link" data-nav="historia">História</a></li>
+        <li><a href="#linha-do-tempo" class="nav__link" data-nav="linha-do-tempo">Linha do Tempo</a></li>
+        <li><a href="#programacao" class="nav__link" data-nav="programacao">Programação</a></li>
+        <li><a href="#galeria" class="nav__link" data-nav="galeria">Galeria</a></li>
+        <li><a href="#depoimentos" class="nav__link" data-nav="depoimentos">Depoimentos</a></li>
+        <li><a href="#capsula" class="nav__link" data-nav="capsula">Cápsula do Tempo</a></li>
+        <li><a href="#busca" class="nav__link" data-nav="busca">Busca</a></li>
+        <li><a href="#referencias" class="nav__link" data-nav="referencias">Referências</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Overlay escuro exibido quando o menu mobile está aberto -->
+  <div class="nav__overlay" id="navOverlay" hidden aria-hidden="true"></div>
+
+  <main id="conteudo-principal">
+
+    <!-- ============================================================
+         HERO — Apresentação principal do memorial
+         ============================================================ -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="hero__content container">
+        <p class="hero__badge">Memorial Cultural</p>
+        <h1 class="hero__title" id="hero-title">Sant'Ana Digital</h1>
+        <p class="hero__subtitle">Memorial Cultural da Festa de Sant'Ana da Família Barros — Várzea Grande-MT</p>
+        <p class="hero__text">
+          Um espaço digital para preservar a memória, a fé e a tradição da Festa de Sant'Ana,
+          celebrada pela Família Barros em Várzea Grande-MT.
+        </p>
+        <div class="hero__actions">
+          <a href="#historia" class="btn btn--primary">Conhecer a história</a>
+          <a href="#linha-do-tempo" class="btn btn--secondary">Ver linha do tempo</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SOBRE A TRADIÇÃO — Contexto cultural e patrimonial
+         ============================================================ -->
+    <section class="section section--cream" id="tradicao" aria-labelledby="tradicao-title">
+      <div class="container">
+        <header class="section__header">
+          <span class="section__label">Patrimônio vivo</span>
+          <h2 class="section__title" id="tradicao-title">Sobre a tradição</h2>
+        </header>
+        <div class="prose prose--centered">
+          <p>
+            A Festa de Sant'Ana da Família Barros é uma manifestação cultural, religiosa e familiar
+            que atravessa gerações em Várzea Grande-MT. Marcada pela devoção, pela reunião entre
+            parentes e amigos, pela memória oral e pela continuidade dos costumes, a celebração
+            expressa identidade, pertencimento e cuidado com o que foi transmitido pelos antepassados.
+          </p>
+          <p>
+            Mais do que um evento religioso, a festa representa um patrimônio cultural imaterial
+            da família e da comunidade — um espaço de acolhimento onde histórias são contadas,
+            laços são renovados e a tradição popular local é preservada com respeito e gratidão.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         HISTÓRIA — Origem da celebração familiar
+         ============================================================ -->
+    <section class="section" id="historia" aria-labelledby="historia-title">
+      <div class="container container--narrow">
+        <header class="section__header">
+          <span class="section__label">Origens</span>
+          <h2 class="section__title" id="historia-title">História</h2>
+        </header>
+        <div class="card card--highlight">
+          <p>
+            A tradição da Festa de Sant'Ana da Família Barros está relacionada à fé, à memória
+            familiar e à transmissão de valores entre gerações. Realizada em Várzea Grande-MT,
+            a celebração reúne familiares, amigos e comunidade em momentos de oração, convivência,
+            partilha e preservação da história. Com o passar dos anos, a festa tornou-se um símbolo
+            de identidade cultural e afetiva para os descendentes e participantes.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         LINHA DO TEMPO — Dados carregados de dados/linha-do-tempo.json
+         ============================================================ -->
+    <section class="section section--cream" id="linha-do-tempo" aria-labelledby="timeline-title">
+      <div class="container">
+        <header class="section__header">
+          <span class="section__label">Marcos históricos</span>
+          <h2 class="section__title" id="timeline-title">Linha do Tempo</h2>
+          <p class="section__desc">Principais momentos da tradição ao longo dos anos.</p>
+        </header>
+        <div class="timeline" id="timelineContainer" role="list" aria-live="polite" aria-busy="true">
+          <p class="loading-message">Carregando linha do tempo…</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PROGRAMAÇÃO — Cards estáticos com momentos da festa
+         ============================================================ -->
+    <section class="section" id="programacao" aria-labelledby="programacao-title">
+      <div class="container">
+        <header class="section__header">
+          <span class="section__label">Celebração</span>
+          <h2 class="section__title" id="programacao-title">Programação</h2>
+          <p class="section__desc">Momentos que marcam a Festa de Sant'Ana da Família Barros.</p>
+        </header>
+        <div class="grid grid--3">
+
+          <article class="card card--program">
+            <div class="card__icon" aria-hidden="true">🕯️</div>
+            <h3 class="card__title">Novena</h3>
+            <p class="card__text">Nove dias de oração em preparação à festa, reunindo familiares em momentos de reflexão e devoção.</p>
+          </article>
+
+          <article class="card card--program">
+            <div class="card__icon" aria-hidden="true">⛪</div>
+            <h3 class="card__title">Missa em honra a Sant'Ana</h3>
+            <p class="card__text">Celebração eucarística dedicada à padroeira, coração espiritual da tradição familiar.</p>
+          </article>
+
+          <article class="card card--program">
+            <div class="card__icon" aria-hidden="true">🍰</div>
+            <h3 class="card__title">Chá com bolo</h3>
+            <p class="card__text">Confraternização com partilha de alimentos, conversas e acolhimento entre gerações.</p>
+          </article>
+
+          <article class="card card--program">
+            <div class="card__icon" aria-hidden="true">👨‍👩‍👧‍👦</div>
+            <h3 class="card__title">Encontro familiar</h3>
+            <p class="card__text">Reunião de parentes próximos e distantes para fortalecer laços e reviver memórias.</p>
+          </article>
+
+          <article class="card card--program">
+            <div class="card__icon" aria-hidden="true">📷</div>
+            <h3 class="card__title">Registro de memórias</h3>
+            <p class="card__text">Coleta de fotos, relatos e documentos que preservam a história da festa para o futuro.</p>
+          </article>
+
+          <article class="card card--program">
+            <div class="card__icon" aria-hidden="true">🤝</div>
+            <h3 class="card__title">Doações e ação solidária</h3>
+            <p class="card__text">Iniciativas de partilha e apoio à comunidade, expressando os valores de caridade da tradição.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         GALERIA — Dados carregados de dados/galeria.json
+         ============================================================ -->
+    <section class="section section--cream" id="galeria" aria-labelledby="galeria-title">
+      <div class="container">
+        <header class="section__header">
+          <span class="section__label">Registros visuais</span>
+          <h2 class="section__title" id="galeria-title">Galeria de Memórias</h2>
+          <p class="section__desc">Imagens e momentos que contam a história da festa. Substitua os placeholders por fotos reais na pasta <code>imagens/</code>.</p>
+        </header>
+        <div class="gallery" id="galleryContainer" role="list" aria-live="polite" aria-busy="true">
+          <p class="loading-message loading-message--full">Carregando galeria…</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         DEPOIMENTOS — Dados carregados de dados/depoimentos.json
+         ============================================================ -->
+    <section class="section" id="depoimentos" aria-labelledby="depoimentos-title">
+      <div class="container">
+        <header class="section__header">
+          <span class="section__label">Vozes da tradição</span>
+          <h2 class="section__title" id="depoimentos-title">Depoimentos</h2>
+          <p class="section__desc">Relatos de quem vive a festa. Os exemplos abaixo são modelos e podem ser substituídos por depoimentos reais.</p>
+        </header>
+        <div class="grid grid--3" id="depoimentosContainer" role="list" aria-live="polite" aria-busy="true">
+          <p class="loading-message loading-message--full">Carregando depoimentos…</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CÁPSULA DO TEMPO — Formulário com localStorage (sem backend)
+         ============================================================ -->
+    <section class="section section--capsula" id="capsula" aria-labelledby="capsula-title">
+      <div class="container">
+        <header class="section__header section__header--light">
+          <span class="section__label section__label--light">Destaque</span>
+          <h2 class="section__title" id="capsula-title">Cápsula do Tempo Digital</h2>
+        </header>
+        <div class="capsula">
+          <div class="capsula__intro">
+            <p>
+              A Cápsula do Tempo Digital é um espaço simbólico para registrar mensagens, fotos,
+              lembranças e desejos para as futuras gerações. A proposta é preservar memórias atuais
+              para que possam ser revisitadas no futuro.
+            </p>
+          </div>
+
+          <form class="capsula__form" id="capsulaForm" novalidate>
+            <div class="form-group">
+              <label for="capsulaNome">Nome</label>
+              <input type="text" id="capsulaNome" name="nome" required autocomplete="name" placeholder="Seu nome">
+            </div>
+            <div class="form-group">
+              <label for="capsulaVinculo">Geração ou vínculo com a festa</label>
+              <input type="text" id="capsulaVinculo" name="vinculo" required placeholder="Ex.: 3ª geração, organizador, visitante">
+            </div>
+            <div class="form-group">
+              <label for="capsulaMensagem">Mensagem para o futuro</label>
+              <textarea id="capsulaMensagem" name="mensagem" rows="4" required placeholder="Escreva sua mensagem para as futuras gerações…"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="capsulaAno">Ano desejado para abertura simbólica</label>
+              <input type="number" id="capsulaAno" name="ano" min="2026" max="2100" value="2050" required inputmode="numeric">
+            </div>
+
+            <!-- Feedback de validação (substitui alert()) -->
+            <p class="form-feedback" id="capsulaFeedback" role="alert" hidden></p>
+
+            <button type="submit" class="btn btn--primary btn--full">Registrar memória</button>
+          </form>
+
+          <p class="capsula__aviso" id="capsulaAviso" role="note">
+            As mensagens registradas ficam salvas apenas neste navegador. Para armazenamento definitivo,
+            será necessário integrar o sistema a um banco de dados ou formulário online.
+          </p>
+
+          <div class="capsula__memorias">
+            <h3 class="capsula__memorias-title">Memórias registradas neste dispositivo</h3>
+            <ul class="capsula__lista" id="capsulaLista" aria-live="polite">
+              <!-- Preenchido via JavaScript (localStorage) -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         BUSCA — Pesquisa em linha do tempo, galeria e depoimentos
+         ============================================================ -->
+    <section class="section section--cream" id="busca" aria-labelledby="busca-title">
+      <div class="container container--narrow">
+        <header class="section__header">
+          <span class="section__label">Explorar</span>
+          <h2 class="section__title" id="busca-title">Busca</h2>
+          <p class="section__desc">Pesquise por palavras-chave na linha do tempo, galeria, depoimentos e programação.</p>
+        </header>
+        <div class="search">
+          <label for="searchInput" class="visually-hidden">Termo de busca</label>
+          <input type="search" id="searchInput" class="search__input" placeholder="Ex.: cápsula, novena, família…" autocomplete="off" enterkeyhint="search">
+          <div class="search__results" id="searchResults" role="region" aria-live="polite" aria-label="Resultados da busca">
+            <p class="search__hint">Digite uma palavra-chave para buscar conteúdos do memorial.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         IMPORTÂNCIA CULTURAL — Relação com preservação e ODS 11
+         ============================================================ -->
+    <section class="section" id="importancia" aria-labelledby="importancia-title">
+      <div class="container container--narrow">
+        <header class="section__header">
+          <span class="section__label">Preservação</span>
+          <h2 class="section__title" id="importancia-title">Importância cultural</h2>
+        </header>
+        <div class="prose prose--centered">
+          <p>
+            O Sant'Ana Digital demonstra como a tecnologia pode contribuir para a preservação de
+            manifestações culturais locais. Ao organizar informações, imagens, depoimentos e registros
+            históricos em ambiente digital, o projeto facilita o acesso da comunidade à memória da
+            festa e contribui para que as novas gerações conheçam e valorizem essa tradição.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         REFERÊNCIAS — Fontes da pesquisa (editáveis)
+         ============================================================ -->
+    <section class="section section--cream" id="referencias" aria-labelledby="referencias-title">
+      <div class="container container--narrow">
+        <header class="section__header">
+          <span class="section__label">Fontes</span>
+          <h2 class="section__title" id="referencias-title">Referências</h2>
+          <p class="section__desc">Fontes e documentos utilizados na pesquisa. Edite conforme necessário.</p>
+        </header>
+        <ul class="referencias">
+          <li>Reportagens sobre a Festa de Sant'Ana da Família Barros.</li>
+          <li>Registros familiares e relatos orais.</li>
+          <li>Materiais sobre a história e tradição de Várzea Grande-MT.</li>
+          <li>Objetivos de Desenvolvimento Sustentável da ONU — <strong>ODS 11</strong>, Meta 11.4: Fortalecer esforços para proteger e salvaguardar o patrimônio cultural e natural do mundo.</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       RODAPÉ — Créditos do Projeto de Extensão
+       ============================================================ -->
+  <footer class="footer">
+    <div class="container footer__content">
+      <p class="footer__title">Sant'Ana Digital — Memorial Cultural</p>
+      <p>Projeto de Extensão — CST em Análise e Desenvolvimento de Sistemas</p>
+      <p>Várzea Grande-MT</p>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante: rolagem suave de volta ao topo -->
+  <button class="back-to-top" id="backToTop" type="button" aria-label="Voltar ao topo" hidden>
+    <span aria-hidden="true">↑</span>
+  </button>
+
+  <!-- Script principal: caminho relativo compatível com GitHub Pages -->
+  <script src="script.js" defer></script>
+</body>
+</html>
