@@ -41,6 +41,7 @@
         <li><a href="#historia" class="nav__link" data-nav="historia">História</a></li>
         <li><a href="#linha-do-tempo" class="nav__link" data-nav="linha-do-tempo">Linha do Tempo</a></li>
         <li><a href="#programacao" class="nav__link" data-nav="programacao">Programação</a></li>
+        <li><a href="#videos" class="nav__link" data-nav="videos">Vídeos</a></li>
         <li><a href="#galeria" class="nav__link" data-nav="galeria">Galeria</a></li>
         <li><a href="#depoimentos" class="nav__link" data-nav="depoimentos">Depoimentos</a></li>
         <li><a href="#capsula" class="nav__link" data-nav="capsula">Cápsula do Tempo</a></li>
@@ -189,6 +190,56 @@
     </section>
 
     <!-- ============================================================
+         VÍDEOS — Registros audiovisuais da festa (TikTok embed)
+         ============================================================ -->
+    <section class="section" id="videos" aria-labelledby="videos-title">
+      <div class="container">
+        <header class="section__header">
+          <span class="section__label">Registros audiovisuais</span>
+          <h2 class="section__title" id="videos-title">Vídeos</h2>
+          <p class="section__desc">Registros em vídeo da Festa de Sant'Ana em Várzea Grande-MT.</p>
+        </header>
+
+        <article class="video-card">
+          <div class="video-card__embed">
+            <blockquote
+              class="tiktok-embed"
+              cite="https://www.tiktok.com/@valdeliciogarcia/video/7531509307850935558"
+              data-video-id="7531509307850935558"
+              style="max-width: 605px; min-width: 325px;"
+            >
+              <section>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="@valdeliciogarcia"
+                  href="https://www.tiktok.com/@valdeliciogarcia/video/7531509307850935558"
+                >
+                  Ver vídeo no TikTok — Festa de Sant'Ana
+                </a>
+              </section>
+            </blockquote>
+          </div>
+          <div class="video-card__info">
+            <h3 class="video-card__title">Banda Real Som — Festa de Sant'Ana</h3>
+            <p class="video-card__text">
+              Registro da festa na Chácara Santa Ana, Capão Grande, Várzea Grande-MT.
+              Vídeo: João Produção · @valdeliciogarcia
+            </p>
+            <a
+              class="btn btn--outline"
+              href="https://www.tiktok.com/@valdeliciogarcia/video/7531509307850935558"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Abrir no TikTok
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============================================================
          GALERIA — Dados carregados de dados/galeria.json
          ============================================================ -->
     <section class="section section--cream" id="galeria" aria-labelledby="galeria-title">
@@ -196,7 +247,7 @@
         <header class="section__header">
           <span class="section__label">Registros visuais</span>
           <h2 class="section__title" id="galeria-title">Galeria de Memórias</h2>
-          <p class="section__desc">Imagens e momentos que contam a história da festa. Substitua os placeholders por fotos reais na pasta <code>imagens/</code>.</p>
+          <p class="section__desc">Imagens e momentos que contam a história da festa em Várzea Grande-MT.</p>
         </header>
         <div class="gallery" id="galleryContainer" role="list" aria-live="polite" aria-busy="true">
           <p class="loading-message loading-message--full">Carregando galeria…</p>
@@ -355,5 +406,7 @@
 
   <!-- Script principal: caminho relativo compatível com GitHub Pages -->
   <script src="script.js" defer></script>
+  <!-- Embed oficial do TikTok para exibir o vídeo na seção Vídeos -->
+  <script async src="https://www.tiktok.com/embed.js"></script>
 </body>
 </html>

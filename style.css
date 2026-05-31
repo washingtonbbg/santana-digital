@@ -427,6 +427,18 @@ code {
   width: 100%;
 }
 
+.btn--outline {
+  background: transparent;
+  color: var(--color-brown);
+  border-color: var(--color-gold-dark);
+  box-shadow: none;
+}
+
+.btn--outline:hover {
+  background: var(--color-cream);
+  color: var(--color-brown);
+}
+
 /* --- 5. Seções genéricas --- */
 .section {
   padding: clamp(3rem, 8vw, 5.5rem) 0;
@@ -700,6 +712,55 @@ code {
   background: var(--color-cream);
   padding: 0.2rem 0.55rem;
   border-radius: 50px;
+}
+
+/* --- Vídeos (embed TikTok) --- */
+.video-card {
+  display: grid;
+  gap: clamp(1.25rem, 4vw, 2rem);
+  max-width: 920px;
+  margin: 0 auto;
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  padding: clamp(1.25rem, 4vw, 2rem);
+  box-shadow: var(--shadow-md);
+  border: 1px solid rgba(201, 162, 39, 0.12);
+}
+
+@media (min-width: 768px) {
+  .video-card {
+    grid-template-columns: minmax(280px, 1fr) minmax(260px, 1fr);
+    align-items: center;
+  }
+}
+
+.video-card__embed {
+  display: flex;
+  justify-content: center;
+  min-height: 580px;
+}
+
+.video-card__embed .tiktok-embed {
+  margin: 0 auto;
+}
+
+.video-card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.video-card__title {
+  font-family: var(--font-display);
+  font-size: clamp(1.25rem, 3vw, 1.5rem);
+  font-weight: 600;
+  color: var(--color-brown);
+}
+
+.video-card__text {
+  color: var(--color-text-muted);
+  font-size: 0.9375rem;
+  line-height: 1.65;
 }
 
 /* --- Depoimentos --- */

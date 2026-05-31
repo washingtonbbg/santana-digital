@@ -36,6 +36,7 @@
     "historia",
     "linha-do-tempo",
     "programacao",
+    "videos",
     "galeria",
     "depoimentos",
     "capsula",
@@ -97,6 +98,18 @@
     ],
     galeria: [
       {
+        titulo: "Imagem de Sant'Ana",
+        descricao: "Altar devocional com oratório, candelabros dourados e flores em honra à padroeira.",
+        ano: "Fé",
+        imagem: "imagens/349a04994af5c21d72002a079dcc0c07.png",
+      },
+      {
+        titulo: "Procissão da festa",
+        descricao: "Momento da procissão com a imagem de Sant'Ana, reunindo familiares e comunidade sob a tenda.",
+        ano: "Tradição",
+        imagem: "imagens/a62471d49cbfe2f8e2c59074b07314da.jpg",
+      },
+      {
         titulo: "Foto antiga da família",
         descricao: "Espaço reservado para registros históricos da Família Barros.",
         ano: "Memória",
@@ -106,12 +119,6 @@
         titulo: "Registro da novena",
         descricao: "Momento de oração e encontro entre familiares e comunidade.",
         ano: "Tradição",
-        imagem: "",
-      },
-      {
-        titulo: "Imagem de Sant'Ana",
-        descricao: "Símbolo da devoção e da continuidade da tradição.",
-        ano: "Fé",
         imagem: "",
       },
       {
@@ -467,6 +474,14 @@
       desc: "Espaço simbólico para registrar mensagens e lembranças para as futuras gerações.",
       keywords: normalize("cápsula capsula tempo memória futuro mensagem"),
       anchor: "#capsula",
+    });
+
+    index.push({
+      type: "Vídeo",
+      title: "Banda Real Som — Festa de Sant'Ana",
+      desc: "Vídeo da festa na Chácara Santa Ana, Capão Grande, Várzea Grande-MT. João Produção, @valdeliciogarcia.",
+      keywords: normalize("video vídeo tiktok banda real som chácara santa ana capão grande valdelicio"),
+      anchor: "#videos",
     });
 
     return index;
