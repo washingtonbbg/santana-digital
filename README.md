@@ -1,7 +1,4 @@
-# Sant'Ana Digital
-
-**Memorial Cultural da Festa de Sant'Ana da Família Barros**  
-Várzea Grande — Mato Grosso (MT)
+# Memorial Cultural da Festa de Sant'Ana - Várzea Grande - MT
 
 ---
 
@@ -9,7 +6,7 @@ Várzea Grande — Mato Grosso (MT)
 
 | Campo | Informação |
 |-------|------------|
-| **Título** | Sant'Ana Digital — Memorial Cultural |
+| **Título** | Memorial Cultural da Festa de Sant'Ana - Várzea Grande - MT |
 | **Modalidade** | Projeto de Extensão Universitária |
 | **Curso** | CST em Análise e Desenvolvimento de Sistemas (ADS) |
 | **Área de atuação** | Tecnologia da Informação aplicada à preservação cultural |
@@ -20,7 +17,7 @@ Várzea Grande — Mato Grosso (MT)
 
 ## Apresentação
 
-O **Sant'Ana Digital** é um sistema web desenvolvido no âmbito de um **Projeto de Extensão** do curso de **Análise e Desenvolvimento de Sistemas**, com o propósito de **preservar, organizar e divulgar a memória cultural** da **Festa de Sant'Ana da Família Barros**, tradição religiosa, familiar e comunitária realizada em **Várzea Grande-MT**.
+O **Memorial Cultural da Festa de Sant'Ana - Várzea Grande - MT** é um sistema web desenvolvido no âmbito de um **Projeto de Extensão** do curso de **Análise e Desenvolvimento de Sistemas**, com o propósito de **preservar, organizar e divulgar a memória cultural** da **Festa de Sant'Ana da Família Barros**, tradição religiosa, familiar e comunitária realizada em **Várzea Grande-MT**.
 
 A proposta parte do reconhecimento de que manifestações culturais locais, transmitidas oralmente entre gerações, correm o risco de se perderem quando não são devidamente registradas. O memorial digital reúne, em um único ambiente acessível, informações históricas, linha do tempo, registros visuais, depoimentos, programação da festa e um espaço simbólico de cápsula do tempo, contribuindo para a valorização do patrimônio cultural imaterial da família e da comunidade.
 
@@ -70,7 +67,7 @@ Entre os marcos mais significativos da tradição destacam-se:
 - A abertura simbólica da cápsula após 14 anos (2025);
 - A proposta de manter viva a tradição com novos registros para o futuro.
 
-O Sant'Ana Digital nasce como resposta acadêmica e comunitária à necessidade de **salvaguardar essa memória** de forma organizada e acessível.
+O Memorial Cultural da Festa de Sant'Ana - Várzea Grande - MT nasce como resposta acadêmica e comunitária à necessidade de **salvaguardar essa memória** de forma organizada e acessível.
 
 ---
 
@@ -161,7 +158,7 @@ santana-digital/
 
 ## Extensão universitária e ODS 11
 
-Este projeto insere-se na política de **extensão universitária**, eixo que articula ensino, pesquisa e intervenção na realidade social. Ao aplicar competências de análise e desenvolvimento de sistemas em favor da memória cultural de Várzea Grande-MT, o Sant'Ana Digital exemplifica como a formação técnica em ADS pode gerar soluções concretas para demandas comunitárias.
+Este projeto insere-se na política de **extensão universitária**, eixo que articula ensino, pesquisa e intervenção na realidade social. Ao aplicar competências de análise e desenvolvimento de sistemas em favor da memória cultural de Várzea Grande-MT, o Memorial Cultural da Festa de Sant'Ana - Várzea Grande - MT exemplifica como a formação técnica em ADS pode gerar soluções concretas para demandas comunitárias.
 
 A iniciativa está alinhada ao **Objetivo de Desenvolvimento Sustentável 11 (ODS 11) — Cidades e Comunidades Sustentáveis**, especialmente à **Meta 11.4**:
 
@@ -243,7 +240,7 @@ Seções como *Sobre a tradição*, *História* e *Importância cultural* podem 
 
 ## Considerações finais
 
-O Sant'Ana Digital constitui uma **proposta viva de extensão** que une tecnologia e memória cultural. Trata-se de um ponto de partida: o memorial pode ser ampliado com novos depoimentos, fotografias, documentos e integrações futuras (como formulário online ou banco de dados), conforme a participação da família e da comunidade.
+O Memorial Cultural da Festa de Sant'Ana - Várzea Grande - MT constitui uma **proposta viva de extensão** que une tecnologia e memória cultural. Trata-se de um ponto de partida: o memorial pode ser ampliado com novos depoimentos, fotografias, documentos e integrações futuras (como formulário online ou banco de dados), conforme a participação da família e da comunidade.
 
 A preservação da Festa de Sant'Ana da Família Barros é responsabilidade coletiva — e a tecnologia, quando aplicada com sensibilidade cultural, pode ser uma aliada poderosa nesse processo.
 
@@ -251,8 +248,7 @@ A preservação da Festa de Sant'Ana da Família Barros é responsabilidade cole
 
 ## Créditos
 
-**Sant'Ana Digital — Memorial Cultural**  
-Projeto de Extensão — CST em Análise e Desenvolvimento de Sistemas  
-Várzea Grande-MT
+**Memorial Cultural da Festa de Sant'Ana - Várzea Grande - MT**  
+Projeto de Extensão — CST em Análise e Desenvolvimento de Sistemas
 
 *Projeto acadêmico de extensão — uso educacional, comunitário e cultural.*

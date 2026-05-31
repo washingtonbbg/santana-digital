@@ -1,4 +1,4 @@
-Pasta de imagens — Sant'Ana Digital
+Pasta de imagens — Memorial Cultural da Festa de Sant'Ana
 ====================================
 
 Coloque aqui as fotos reais da Festa de Sant'Ana da Família Barros.

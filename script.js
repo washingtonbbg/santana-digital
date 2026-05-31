@@ -1,7 +1,7 @@
 /**
  * =============================================================
- * Sant'Ana Digital — Script principal
- * Memorial Cultural da Festa de Sant'Ana da Família Barros
+ * Memorial Cultural da Festa de Sant'Ana - Várzea Grande - MT
+ * Script principal do memorial digital
  *
  * Funcionalidades:
  * - Carrega dados JSON (linha do tempo, depoimentos, galeria)
@@ -175,7 +175,7 @@
       if (!Array.isArray(data)) throw new Error("JSON inválido");
       return data;
     } catch (err) {
-      console.warn("[Sant'Ana Digital] Fallback ativado para " + url + ":", err.message);
+      console.warn("[Memorial Sant'Ana] Fallback ativado para " + url + ":", err.message);
       return FALLBACK[fallbackKey];
     }
   }
